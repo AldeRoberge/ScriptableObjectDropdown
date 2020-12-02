@@ -37,7 +37,7 @@ public class SandBlock : Block
 ```cs
 using UnityEngine;
 
-public abstract class AbstarctBlock : ScriptableObject
+public abstract class AbstractBlock : ScriptableObject
 {
     // Some fields and functions
 }
@@ -47,7 +47,7 @@ public abstract class AbstarctBlock : ScriptableObject
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Blocks/Water")]
-public class WaterBlock : AbstarctBlock
+public class WaterBlock : AbstractBlock
 {
     // Some fields and functions
 }
